@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+int i,n;
+printf("enter:");
+scanf("%d",&n);
+for(i=0;i<n;i++)
+{
+    if((i<20)||(i>90)||((i>50)&&(i<80)))
+        printf("\n%d",i);
+}
+}
+
+
